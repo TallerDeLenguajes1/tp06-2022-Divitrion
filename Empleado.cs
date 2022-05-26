@@ -46,12 +46,11 @@ public class Empleado
             {
                 aptitud=0;
             }
-            return aptitud;
         }else
         {
             aptitud=20-antiguedad;
-            return aptitud;
         }
+        return aptitud;
     }
 }
 
